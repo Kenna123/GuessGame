@@ -5,9 +5,6 @@
 #include <cstdlib> // Needed for srand and rand functions
 using namespace std;
 
-//Imported libraries for nedded for time fuction and generating random numbers
-//Implemented a time algorithm that converts calculates the time spent playing the game
-
 
 
 int main() {
@@ -51,6 +48,9 @@ cin >> decision;
     }
     else if(user_choice == 3){
     num_of_tries = 3;
+    }
+    else{
+      cout<<user_choice<<" is not a valid response. "<<endl;
     }
       
     
@@ -117,12 +117,14 @@ cin >> decision;
  long gameTimeSecond = endTime - startTime;
   
   if(gameTimeMinute> 60){
-    gameTimeMinute/=60;  
+    gameTimeMinute/=60; 
+    cout <<  "You spent " << gameTimeMinute << " minute(s) " << gameTimeSecond << " second(s)" << endl; 
   }
   if (gameTimeMinute< 60){
      gameTimeSecond%=60;
+    cout <<  "You spent " << gameTimeSecond << " second(s)" << endl; 
   }
- cout <<  "You spent " << gameTimeMinute << " minute(s) " << gameTimeSecond << " second(s)" << endl;  
+  
  
   
   return 0; 
