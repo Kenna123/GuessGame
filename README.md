@@ -11,4 +11,3 @@ This is a command line Guessing Game developed by Kenna Agbugba using Fundamenta
 
 
 
-<img src=https://imgur.com/19XnExH.gif width=900>
