@@ -10,4 +10,5 @@ This is a command line Guessing Game developed by Kenna Agbugba using Fundamenta
 - [x] User can also view how much time they spent playing the game
 
 
-
+## Game Run
+<img src=https://imgur.com/qP7SqgT.gif width=900>
